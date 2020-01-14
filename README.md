@@ -11,4 +11,4 @@ host 1-2-3-4.sslip.io
 1-2-3-4.sslip.io has address 1.2.3.4
 ```
 
-How does it differ from the upstream? It only returns an A/AAAA record if the IP is part of my IP ranges.
+How does it differ from the upstream? It only returns an A/AAAA record if the address is part of my IP ranges.
