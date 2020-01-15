@@ -11,7 +11,7 @@
   # CHANGEME: change "sslip.io" to your domain
   XIP_DOMAIN="sslip.io"
   # How long responses should be cached, in seconds.
-  XIP_TTL=300
+  XIP_TTL=86400
   # SOA record
   XIP_SOA="briancunnie.gmail.com ns-he.nono.io $XIP_TIMESTAMP $XIP_TTL $XIP_TTL $XIP_TTL $XIP_TTL"
   # The public IP addresses (e.g. for the web site) of the top-level domain.
