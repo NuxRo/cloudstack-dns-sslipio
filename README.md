@@ -12,3 +12,5 @@ host 1-2-3-4.sslip.io
 ```
 
 How does it differ from the upstream? It only returns an A/AAAA record if the address is part of my IP ranges.
+
+Do not put this on your production Powerdns, use a separate instance as the script for now claims requests to any domain and will fuck things up.
