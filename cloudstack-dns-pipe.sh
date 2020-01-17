@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+##  WARNING
+## Do not put this on your production Powerdns, use a separate instance as the script for now claims requests to any domain and will fuck things up.
+
   #
   # Originally written by Sam Stephenson for xip.io
   set -e
